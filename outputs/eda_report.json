@@ -1,0 +1,67 @@
+{
+    "shape": [
+        1000000,
+        5
+    ],
+    "dtypes": {
+        "weekly_self_study_hours": "float64",
+        "attendance_percentage": "float64",
+        "class_participation": "float64",
+        "total_score": "float64",
+        "grade": "str"
+    },
+    "summary_stats": {
+        "weekly_self_study_hours": {
+            "count": 1000000.0,
+            "mean": 15.0291269,
+            "std": 6.8994310211672385,
+            "min": 0.0,
+            "25%": 10.3,
+            "50%": 15.0,
+            "75%": 19.7,
+            "max": 40.0
+        },
+        "attendance_percentage": {
+            "count": 1000000.0,
+            "mean": 84.711046,
+            "std": 9.424143384964097,
+            "min": 50.0,
+            "25%": 78.3,
+            "50%": 85.0,
+            "75%": 91.8,
+            "max": 100.0
+        },
+        "class_participation": {
+            "count": 1000000.0,
+            "mean": 5.9852026,
+            "std": 1.956420508105158,
+            "min": 0.0,
+            "25%": 4.7,
+            "50%": 6.0,
+            "75%": 7.3,
+            "max": 10.0
+        },
+        "total_score": {
+            "count": 1000000.0,
+            "mean": 84.2838453,
+            "std": 15.432968775714967,
+            "min": 9.4,
+            "25%": 73.9,
+            "50%": 87.5,
+            "75%": 100.0,
+            "max": 100.0
+        }
+    },
+    "outliers": {
+        "weekly_self_study_hours": 3541,
+        "attendance_percentage": 3518,
+        "class_participation": 4927,
+        "total_score": 2027
+    },
+    "insights": [
+        "The dataset has 1000000 records and 5 features (excluding ID).",
+        "Attendance has a median of 85.00%.",
+        "Total score has a median of 87.50.",
+        "Outliers detected: {'weekly_self_study_hours': 3541, 'attendance_percentage': 3518, 'class_participation': 4927, 'total_score': 2027}"
+    ]
+}
